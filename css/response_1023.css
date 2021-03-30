@@ -1,0 +1,840 @@
+@media (max-width: 1023px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 32px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+    .bg_block,
+    .bg_block2,
+    .bg_block3,
+    .bg_block4
+    {
+        padding: 60px 0;
+    }
+
+
+    .block_head
+    {
+        margin-bottom: 25px;
+    }
+
+    .block_head .title
+    {
+        padding-left: 75px;
+    }
+
+    .block_head .title:before
+    {
+        top: 19px;
+
+        width: 50px;
+        height: 4px;
+    }
+
+
+    .block_head .all_link
+    {
+        font-size: 12px;
+        line-height: 42px;
+
+        top: -2px;
+
+        height: 44px;
+        padding: 0 25px;
+    }
+
+
+
+    .page_head
+    {
+        padding-top: 15px;
+        padding-bottom: 30px;
+
+        border-top: 1px solid #ddd;
+    }
+
+
+    .breadcrumbs .sep
+    {
+        width: 25px;
+        margin: 0 15px;
+    }
+
+
+
+    .owl-carousel .owl-nav button
+    {
+        bottom: 29px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev
+    {
+        right: 89px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next
+    {
+        right: 18px;
+    }
+
+
+    .carousel.owl-carousel .owl-nav button
+    {
+        top: -64px;
+    }
+
+    .carousel.owl-carousel .owl-nav button.owl-prev
+    {
+        right: 69px;
+    }
+
+    .carousel.owl-carousel .owl-nav button.owl-next
+    {
+        right: -2px;
+    }
+
+
+    .owl-dots
+    {
+        right: 26px;
+        bottom: 0;
+    }
+
+
+
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header
+    {
+        position: fixed;
+        z-index: 1001;
+        top: 0;
+        left: 0;
+
+        width: 270px;
+        margin: 0;
+
+        transition: .3s linear;
+        transform: translateX(-100%);
+
+        background: #fff;
+    }
+
+    header.show
+    {
+        transform: translateX(0);
+    }
+
+    header .scroll
+    {
+        overflow: auto;
+
+        height: 100vh;
+    }
+
+    header .close
+    {
+        position: absolute;
+        top: 0;
+        left: 100%;
+
+        display: none;
+
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    header.show .close
+    {
+        display: flex;
+    }
+
+    header .close span
+    {
+        position: relative;
+
+        display: block;
+
+        width: 100%;
+        height: 2px;
+
+        background: #fff;
+    }
+
+    header .close span + span
+    {
+        margin-top: 6px;
+    }
+
+    header .close span:nth-child(1)
+    {
+        top: 4px;
+
+        transform: rotate(45deg);
+    }
+
+    header .close span:nth-child(2)
+    {
+        top: -4px;
+
+        transform: rotate(-45deg);
+    }
+
+
+
+    header .cont
+    {
+        display: block;
+
+        padding: 0;
+    }
+
+    header .info
+    {
+        padding: 0;
+    }
+
+    header .logo,
+    header .glasses,
+    header .account,
+    header .search
+    {
+        display: none;
+    }
+
+    header .col_right
+    {
+        display: block;
+
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    header .links
+    {
+        display: block;
+
+        padding: 15px 15px 0;
+    }
+
+    header .links > * + *
+    {
+        margin-left: 0;
+    }
+
+    header .links a
+    {
+        line-height: 31px;
+    }
+
+
+    header .menu
+    {
+        display: block;
+
+        width: 100%;
+        margin: 0;
+        padding: 0 15px 15px;
+    }
+
+    header .menu .item > a
+    {
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 31px;
+
+        min-height: 31px;
+
+        text-align: left;
+
+        justify-content: flex-start;
+    }
+
+    header .menu .item > a:after
+    {
+        display: none;
+    }
+
+    header .menu .item > a:hover,
+    header .menu .item > a.active
+    {
+        color: #c00;
+    }
+
+
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside
+    {
+        position: static;
+
+        width: 100%;
+
+        column-gap: 20px;
+        column-count: 3;
+    }
+
+    aside > *
+    {
+        padding-top: 40px;
+
+        --webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+
+    aside .calendar
+    {
+        position: absolute;
+        top: 64px;
+        right: 20px;
+
+        width: calc(33.333% - 26px);
+        margin-top: 0;
+    }
+
+    aside .calendar .all_month
+    {
+        font-size: 12px;
+
+        margin-top: 35px;
+        padding: 0 10px;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider
+    {
+        margin-bottom: 60px;
+    }
+
+    .main_slider .slide .cont
+    {
+        padding: 0;
+    }
+
+    .main_slider .slide .img
+    {
+        min-height: 415px;
+        padding: 0;
+    }
+
+    .main_slider .slide .img:before
+    {
+        display: none;
+    }
+
+
+    .main_slider .slide .info
+    {
+        padding: 6px 21px 91px 20px;
+    }
+
+    .main_slider .slide .info:before
+    {
+        top: 0;
+        right: 0;
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .main_slider .slide .location
+    {
+        font-size: 12px;
+        line-height: 20px;
+
+        width: calc(100% - 115px);
+    }
+
+    .main_slider .slide .location .adres
+    {
+        padding-left: 23px;
+    }
+
+    .main_slider .slide .desc
+    {
+        line-height: 22px;
+
+        height: 178px;
+        margin-top: 30px;
+    }
+
+    .main_slider .slide .details
+    {
+        bottom: 26px;
+        left: 26px;
+    }
+
+
+
+    .products .tabs
+    {
+        margin-bottom: 25px;
+        margin-left: -15px;
+        padding-right: 150px;
+    }
+
+    .products .tabs a
+    {
+        font-size: 14px;
+        line-height: 38px;
+
+        height: 40px;
+        margin-left: 15px;
+        padding: 0 25px;
+    }
+
+
+
+    .products .product .thumb
+    {
+        width: 200px;
+        margin-bottom: 20px;
+        padding-bottom: 115%;
+    }
+
+
+
+    .events .columns .event
+    {
+        margin-left: 0;
+    }
+
+    .events .columns > * + *,
+    .events .columns > *.big + *
+    {
+        padding-top: 60px;
+    }
+
+    .events .columns .event .sticker_date
+    {
+        display: none;
+    }
+
+    .events .columns .event .info,
+    .events .columns .event.big .info
+    {
+        margin-left: 30px;
+    }
+
+    .events .columns .event .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .events .columns .event .date
+    {
+        font-size: 16px;
+        line-height: 32px;
+
+        background-position: 0 10px;
+    }
+
+
+
+    .about_books .item .thumb
+    {
+        margin-bottom: 30px;
+    }
+
+    .about_books .item .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        padding-left: 0;
+    }
+
+    .about_books .item .name:before
+    {
+        display: none;
+    }
+
+
+
+    .articles .tabs
+    {
+        margin-bottom: 25px;
+        margin-left: -15px;
+        padding-right: 150px;
+    }
+
+    .articles .tabs a,
+    .articles .tabs a + a
+    {
+        font-size: 14px;
+        line-height: 38px;
+
+        height: 40px;
+        margin-left: 15px;
+        margin-left: 15px;
+        padding: 0 25px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    .instagram .block_head .link
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        margin-left: auto;
+        padding-left: 40px;
+
+        background-size: auto 100%;
+    }
+
+    .instagram .flex
+    {
+        --instagram_offset: 20px;
+    }
+
+    .instagram .socials
+    {
+        padding-left: 0;
+    }
+
+    .instagram .socials > * + *
+    {
+        margin-top: 20px;
+    }
+
+    .instagram .socials a
+    {
+        padding-left: 40px;
+    }
+
+
+
+    .bottom_links .flex
+    {
+        margin-bottom: -25px;
+
+        justify-content: center;
+    }
+
+    .bottom_links .item
+    {
+        line-height: 18px;
+
+        margin: 0 25px 25px;
+
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+
+
+    .events .head
+    {
+        margin-bottom: 25px;
+    }
+
+    .events .view
+    {
+        margin-right: calc(33.333% + 5px);
+    }
+
+
+
+    .events .flex
+    {
+        width: calc(100% + var(--events_offset));
+        margin-bottom: -50px;
+
+        --events_count: 3;
+    }
+
+    .events .flex > *
+    {
+        margin-bottom: 50px;
+    }
+
+    .events .flex > *:nth-child(3)
+    {
+        margin-right: 0;
+    }
+
+    .events .flex > *:nth-child(2)
+    {
+        margin-right: calc((100% / var(--events_count)) - var(--events_offset));
+    }
+
+    .events .event .register_link
+    {
+        line-height: 43px;
+
+        width: 230px;
+        height: 44px;
+        margin-top: 20px;
+    }
+
+
+
+    .events .list
+    {
+        padding-right: calc(33.333% + 5px);
+    }
+
+    .events .list .event + .event
+    {
+        margin-top: 40px;
+    }
+
+    .events .list .event .thumb
+    {
+        width: 200px;
+        padding-bottom: 37%;
+    }
+
+    .events .list .event .info
+    {
+        max-width: calc(100% - 220px);
+        margin-left: 20px;
+    }
+
+
+
+    .event_info .event_name
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .event_info .head .date .month
+    {
+        font-size: 16px;
+    }
+
+    .event_info .head .date .day
+    {
+        font-size: 42px;
+    }
+
+    .event_info .head .time,
+    .event_info .head .price
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+
+
+    .event_data .features
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .event_data .info
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .event_data .info .adres
+    {
+        background-position: 2px 4px;
+    }
+
+    .event_data .info .metro
+    {
+        background-position: 0 3px;
+    }
+
+    .event_data .info .phone
+    {
+        background-position: 5px 3px;
+    }
+
+
+    .event_data .register
+    {
+        margin-top: 35px;
+    }
+
+    .event_data .register .title
+    {
+        font-size: 25px;
+        line-height: 27px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    .project_info .project_name
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+
+
+    .page_menu
+    {
+        width: calc(100% + 10px);
+        margin-left: -10px;
+    }
+
+    .page_menu a
+    {
+        font-size: 14px;
+        line-height: 38px;
+
+        height: 40px;
+        margin-left: 10px;
+        padding: 0 15px;
+    }
+
+
+    .events .view
+    {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+
+
+    .projects .project .thumb + .info
+    {
+        width: calc(57.25% - 15px);
+    }
+
+    .projects .project .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .projects .project .desc
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+
+    .projects .list .project + .project
+    {
+        margin-top: 60px;
+    }
+
+    .projects .list .project .thumb + .info
+    {
+        width: calc(50% - 30px);
+        padding-right: 0;
+    }
+
+    .projects .list .project .name
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .projects .list .project .info > * + *
+    {
+        margin-top: 20px;
+    }
+
+    .projects .project .details
+    {
+        margin-top: 30px !important;
+    }
+
+
+
+    .all
+    {
+        margin-top: 40px;
+    }
+
+    .all a
+    {
+        font-size: 12px;
+        line-height: 42px;
+
+        height: 44px;
+        padding: 0 25px;
+    }
+
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .contacts .item
+    {
+        width: 50%;
+        padding: 25px 30px;
+    }
+
+
+
+    footer .data > *
+    {
+        width: 50%;
+        padding: 25px 30px;
+    }
+
+    footer .data .logo
+    {
+        padding: 25px 30px 5px 30px;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

@@ -1,0 +1,594 @@
+@media (max-width: 413px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    :root
+    {
+        --font_size: 12px;
+        --font_size_title: 22px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 40px;
+    }
+
+    .bg_block,
+    .bg_block2,
+    .bg_block3,
+    .bg_block4
+    {
+        padding: 40px 0;
+    }
+
+
+    .block_head .all_link
+    {
+        font-size: 10px;
+        line-height: 36px;
+
+        top: -4px;
+
+        height: 38px;
+        padding: 0 13px;
+    }
+
+
+    .owl-carousel .owl-nav button
+    {
+        bottom: 23px;
+    }
+
+
+
+    .text_block h2
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-bottom: 15px;
+    }
+
+    .text_block h3
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        margin-bottom: 15px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    .mob_header .cont
+    {
+        justify-content: center;
+    }
+
+    .mob_header .logo
+    {
+        display: flex;
+
+        width: 100%;
+        margin-bottom: 10px;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .mob_header .cont > * + *
+    {
+        margin-left: 25px;
+    }
+
+    .mob_header .glasses
+    {
+        margin-left: 0;
+    }
+
+    .mob_header .mob_menu_link
+    {
+        width: 48px;
+        margin-right: -10px;
+        margin-left: 15px;
+        padding: 5px 10px;
+    }
+
+
+
+    .text_block
+    {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .text_block h4
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block p,
+    .text_block img,
+    .text_block blockquote,
+    .text_block q,
+    .text_block figure
+    {
+        margin-bottom: 20px;
+    }
+
+    .text_block blockquote,
+    .text_block q
+    {
+        font-size: 13px;
+        line-height: 20px;
+
+        padding: 15px;
+    }
+
+    .text_block blockquote .author,
+    .text_block q .author
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider
+    {
+        margin-bottom: 40px;
+    }
+
+    .main_slider .slide .details
+    {
+        font-size: 12px;
+        line-height: 38px;
+
+        height: 40px;
+        padding: 0 20px;
+    }
+
+
+
+    .products .block_head
+    {
+        text-align: center;
+    }
+
+
+    .products .tabs
+    {
+        margin-bottom: 10px;
+        margin-left: -15px;
+    }
+
+    .products .tabs a,
+    .products .tabs a + a
+    {
+        font-size: 13px;
+        line-height: 34px;
+
+        height: 36px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        padding: 0 15px;
+    }
+
+
+    .products .product
+    {
+        text-align: center;
+    }
+
+    .products .product .thumb
+    {
+        width: 190px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 85%;
+    }
+
+    .products .product .author
+    {
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+
+
+    .events .columns .event .info,
+    .events .columns .event.big .info
+    {
+        min-height: 100px;
+        margin-top: -100px;
+        margin-left: 30px;
+    }
+
+    .events .event .adres
+    {
+        font-size: 12px;
+    }
+
+
+
+
+    .articles .tabs
+    {
+        margin-bottom: 10px;
+        margin-left: -15px;
+    }
+
+    .articles .tabs a,
+    .articles .tabs a + a
+    {
+        font-size: 13px;
+        line-height: 34px;
+
+        height: 36px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        padding: 0 15px;
+    }
+
+
+
+    .articles .article .desc
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .articles .article .details
+    {
+        line-height: 46px;
+
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+
+
+    .instagram .block_head .link
+    {
+        font-size: 20px;
+    }
+
+    .instagram .flex
+    {
+        --instagram_count: 2;
+    }
+
+    .instagram .socials
+    {
+        width: calc((100% / var(--instagram_count)) - var(--instagram_offset));
+
+        justify-content: flex-start;
+    }
+
+    .instagram .socials > * + *
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+    .instagram .socials a
+    {
+        line-height: 22px;
+
+        padding-left: 35px;
+    }
+
+    .instagram .socials img
+    {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+
+
+    .bottom_links .item img
+    {
+        max-height: 35px;
+    }
+
+
+
+    .page_menu
+    {
+        width: calc(100% + 10px);
+        margin-left: -10px;
+    }
+
+    .page_menu a,
+    .page_menu a + a
+    {
+        margin-left: 10px;
+        padding: 0 10px;
+    }
+
+
+
+    .events .flex
+    {
+        margin-bottom: -20px;
+
+        --events_count: 1;
+    }
+
+    .events .flex > *
+    {
+        margin-bottom: 30px;
+    }
+
+    .events .event .info
+    {
+        padding: 0 10px;
+    }
+
+    .events .event .date
+    {
+        font-size: 12px;
+    }
+
+    .events .event .date .day
+    {
+        font-size: 30px;
+    }
+
+    .events .event .time
+    {
+        font-size: 18px;
+    }
+
+    .events .event .register_link
+    {
+        width: 100%;
+    }
+
+    .events .event .register_link.close img
+    {
+        display: block;
+    }
+
+
+
+    .event_info .event_name
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+    }
+
+    .event_info .head .info
+    {
+        display: block;
+    }
+
+    .event_info .head .date .day
+    {
+        line-height: 26px;
+
+        height: 36px;
+    }
+
+    .event_info .head .time,
+    .event_info .head .price
+    {
+        margin-top: 10px;
+    }
+
+    .event_info .head .register_link
+    {
+        font-size: 14px;
+
+        height: 88px;
+    }
+
+
+
+    .event_data
+    {
+        padding: 15px;
+    }
+
+    .event_data .features
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .event_data .info
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .event_data .info > *
+    {
+        padding-left: 25px;
+    }
+
+    .event_data .info .date
+    {
+        background-position: 2px 3px;
+    }
+
+    .event_data .info .tags
+    {
+        background-position: 5px 4px;
+    }
+
+
+    .event_data .register .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    .project_info .project_name
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .project_info .head > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+    .project_info .share
+    {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+    .project_info .share a
+    {
+        width: 35px;
+        height: 35px;
+    }
+
+    .project_info .share a.link
+    {
+        font-size: 9px;
+        line-height: 33px;
+
+        height: 35px;
+        margin-left: 8px;
+        padding: 0 12px;
+    }
+
+
+    .project_info .bottom
+    {
+        margin-top: 40px;
+        padding-top: 15px;
+    }
+
+
+
+    .projects .project .thumb
+    {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+
+    .projects .project .thumb + .info
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .contacts .item
+    {
+        padding: 15px 20px;
+    }
+
+    footer .contacts .item .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-bottom: 15px;
+    }
+
+    footer .contacts .adres
+    {
+        font-size: 12px;
+
+        padding-left: 20px;
+    }
+
+    footer .contacts .phone span
+    {
+        font-size: 10px;
+
+        display: none;
+    }
+
+
+    footer .data
+    {
+        font-size: 11px;
+    }
+
+    footer .data > *
+    {
+        width: 100%;
+        padding: 10px 15px 15px;
+    }
+
+    footer .data .logo
+    {
+        padding: 20px 15px 15px 15px;
+    }
+
+    footer .data .title
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    footer .time .item strong,
+    footer .director strong
+    {
+        font-size: 12px;
+    }
+
+
+    footer .socials a
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    footer .bottom .text
+    {
+        max-width: calc(100% - 77px);
+    }
+
+
+    footer .creator
+    {
+        margin-top: 15px;
+        margin-right: auto;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

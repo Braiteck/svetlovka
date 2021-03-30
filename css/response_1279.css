@@ -1,0 +1,768 @@
+@media (max-width: 1279px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    :root
+    {
+        --aside_width: 25%;
+        --font_size: 16px;
+        --font_size_title: 38px;
+    }
+
+
+
+    .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    .owl-carousel .owl-nav button
+    {
+        bottom: 76px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev
+    {
+        right: 106px;
+
+        margin-right: 0;
+    }
+
+    .owl-carousel .owl-nav button.owl-next
+    {
+        right: 35px;
+
+        margin-right: 0;
+    }
+
+
+    .carousel.owl-carousel .owl-nav button
+    {
+        top: -71px;
+    }
+
+    .carousel.owl-carousel .owl-nav button.owl-prev
+    {
+        right: 91px;
+    }
+
+    .carousel.owl-carousel .owl-nav button.owl-next
+    {
+        right: 20px;
+    }
+
+
+    .owl-dots
+    {
+        right: 35px;
+
+        margin-right: 0;
+        padding: 0 20px;
+    }
+
+    .owl-dot
+    {
+        width: 20px;
+    }
+
+    .owl-dot + .owl-dot
+    {
+        margin-left: 20px;
+    }
+
+
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--aside_width) - 20px);
+    }
+
+
+
+    .datepicker-inline .datepicker
+    {
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+    .datepicker--days-names
+    {
+        margin: 25px 0 15px;
+    }
+
+    .datepicker--day-name
+    {
+        font-size: 12px;
+    }
+
+
+
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .text_block h2
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        margin-bottom: 25px;
+    }
+
+    .text_block h4
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        margin-bottom: 25px;
+    }
+
+    .text_block p,
+    .text_block img,
+    .text_block blockquote,
+    .text_block q,
+    .text_block figure
+    {
+        margin-bottom: 25px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        padding: 40px 40px 40px 100px;
+    }
+
+
+    .text_block img.left,
+    .text_block iframe.left,
+    .text_block figure.left
+    {
+        max-width: calc(50% - 30px);
+        margin-top: 4px;
+        margin-right: 30px;
+    }
+
+    .text_block img.right,
+    .text_block iframe.right,
+    .text_block figure.right
+    {
+        max-width: calc(50% - 30px);
+        margin-top: 4px;
+        margin-left: 30px;
+    }
+
+    .text_block figure figcaption
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        margin-top: 15px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .logo img.sep,
+    header .logo img.dep
+    {
+        display: none;
+    }
+
+
+    header .col_right
+    {
+        width: 620px;
+        max-width: calc(100% - 296px);
+    }
+
+
+    header .menu
+    {
+        width: calc(50% - 35px);
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside .calendar
+    {
+        margin-top: 75px;
+        padding: 25px 20px;
+    }
+
+    aside .calendar .title
+    {
+        font-size: 20px;
+        line-height: 22px;
+
+        margin-bottom: 25px;
+    }
+
+    aside .calendar .all_month
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider
+    {
+        margin-bottom: 70px;
+    }
+
+    .main_slider .slide .info
+    {
+        padding: 33px 40px 143px 40px;
+    }
+
+    .main_slider .slide .location
+    {
+        width: calc(100% - 120px);
+    }
+
+    .main_slider .slide .details
+    {
+        bottom: 73px;
+        left: 40px;
+    }
+
+
+
+    .products .tabs
+    {
+        margin-bottom: 30px;
+        margin-left: -20px;
+    }
+
+    .products .tabs a
+    {
+        margin-left: 20px;
+    }
+
+
+    .products .owl-item
+    {
+        visibility: visible;
+
+        opacity: 1;
+    }
+
+    .products .product .thumb
+    {
+        margin-bottom: 25px;
+    }
+
+
+
+    .events .columns
+    {
+        column-gap: 20px;
+    }
+
+    .events .columns > * + *,
+    .events .columns > *.big + *
+    {
+        padding-top: 90px;
+    }
+
+    .events .columns .event
+    {
+        margin-left: 60px;
+    }
+
+    .events .columns .event .sticker_date
+    {
+        left: -120px;
+    }
+
+    .events .columns .event .info
+    {
+        margin-left: 60px;
+        padding: 15px 0 0 20px;
+    }
+
+    .events .columns .event .name
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .events .columns .event .date
+    {
+        font-size: 18px;
+        line-height: 36px;
+
+        padding-left: 25px;
+    }
+
+    .events .columns .event .adres
+    {
+        padding-left: 25px;
+    }
+
+
+    .events .columns .event.big .info
+    {
+        margin-left: 140px;
+    }
+
+
+    .about_books .data:before,
+    .about_books .vertical_title
+    {
+        display: none;
+    }
+
+    .about_books .block_head,
+    .about_books .slider
+    {
+        padding: 0;
+    }
+
+
+
+    .articles .cont:before,
+    .articles .vertical_title
+    {
+        display: none;
+    }
+
+    .articles .tabs_container
+    {
+        margin-top: 0;
+    }
+
+    .articles .tabs
+    {
+        margin-bottom: 30px;
+        margin-left: -20px;
+
+        justify-content: flex-start;
+    }
+
+    .products .tabs a,
+    .products .tabs a + a
+    {
+        margin-left: 20px;
+    }
+
+    .articles .slider
+    {
+        padding: 0;
+    }
+
+
+    .articles .article .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    .instagram .block_head .link
+    {
+        font-size: 32px;
+    }
+
+    .instagram .flex
+    {
+        --instagram_offset: 25px;
+    }
+
+    .instagram .socials
+    {
+        padding-left: 20px;
+    }
+
+    .instagram .socials a
+    {
+        padding-left: 50px;
+    }
+
+
+
+    .bottom_links .item img
+    {
+        max-width: 100px;
+    }
+
+    .bottom_links .item img + .name
+    {
+        margin-left: 12px;
+    }
+
+    .bottom_links .item:nth-last-child(1) img + .name
+    {
+        margin-left: -12px;
+    }
+
+
+
+    .events .head
+    {
+        margin-bottom: 30px;
+    }
+
+    .events .flex
+    {
+        width: calc(133.333% + 10px + var(--events_offset));
+        margin-bottom: -60px;
+
+        --events_offset: 20px;
+    }
+
+    .events .flex > *
+    {
+        margin-bottom: 60px;
+    }
+
+    .events .flex > *:nth-child(3)
+    {
+        margin-right: calc((100% / var(--events_count)) - var(--events_offset));
+    }
+
+    .events .event .info
+    {
+        padding: 0;
+    }
+
+    .events .event .date
+    {
+        line-height: 14px;
+    }
+
+    .events .event .date .day
+    {
+        font-size: 30px;
+        line-height: 22px;
+
+        height: 30px;
+        margin-right: 8px;
+    }
+
+    .events .event .time
+    {
+        font-size: 20px;
+    }
+
+    .events .event .name
+    {
+        font-size: 14px;
+    }
+
+    .events .event .register_link
+    {
+        font-size: 12px;
+        line-height: 51px;
+
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    .events .event .register_link.close img
+    {
+        display: none;
+
+        margin-right: 10px;
+    }
+
+
+
+    .events .list .event .info
+    {
+        max-width: calc(100% - 310px);
+        margin-left: 30px;
+    }
+
+
+
+    .event_info
+    {
+        padding-left: 0;
+    }
+
+    .event_info .event_name
+    {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .event_info .head .info
+    {
+        padding: 90px 20px 135px 35px;
+    }
+
+
+
+    .event_data
+    {
+        padding: 20px;
+    }
+
+    .event_data .features
+    {
+        width: calc(50% - 20px);
+    }
+
+    .event_data .info
+    {
+        width: 50%;
+    }
+
+    .event_data .register .title
+    {
+        font-size: 28px;
+        line-height: 30px;
+
+        margin-bottom: 25px;
+    }
+
+
+
+    .projects
+    {
+        padding-bottom: 0;
+    }
+
+    .projects .head
+    {
+        margin-bottom: 30px;
+    }
+
+    .projects .flex
+    {
+        margin-bottom: -60px;
+
+        --projects_offset: 20px;
+    }
+
+    .projects .flex > *
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .projects .project
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .projects .project .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .projects .project .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        padding-left: 15px;
+    }
+
+
+
+    .projects .list .project + .project
+    {
+        margin-top: 90px;
+    }
+
+    .projects .list .project .name
+    {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .projects .list .project .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    .project_info .project_name
+    {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .project_info .bottom
+    {
+        margin-top: 50px;
+    }
+
+
+
+    .page_menu
+    {
+        margin-left: -20px;
+    }
+
+    .page_menu a
+    {
+        margin-left: 20px;
+        padding: 0 20px;
+    }
+
+
+
+    .all
+    {
+        margin-top: 50px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .info
+    {
+        padding-top: 40px;
+    }
+
+
+    footer .contacts .item
+    {
+        font-size: 12px;
+        line-height: 20px;
+
+        padding: 25px 20px;
+    }
+
+    footer .contacts .item .name
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        min-height: 52px;
+    }
+
+    footer .contacts .adres
+    {
+        font-size: 14px;
+
+        padding-left: 22px;
+    }
+
+    footer .contacts .metro
+    {
+        margin-left: -15px;
+    }
+
+    footer .contacts .metro > *
+    {
+        margin-left: 15px;
+
+        background-position: 0 4px;
+    }
+
+    footer .contacts .phone
+    {
+        background-position: 1px 3px;
+    }
+
+    footer .contacts .phone a
+    {
+        font-size: 12px;
+    }
+
+    footer .contacts .phone span
+    {
+        line-height: 18px;
+
+        padding-left: 0;
+    }
+
+    footer .contacts .phone span:before
+    {
+        display: none;
+    }
+
+    footer .contacts .email
+    {
+        background-position: 1px 6px;
+    }
+
+
+
+    footer .data
+    {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    footer .data > *
+    {
+        padding: 20px;
+    }
+
+    footer .data .logo
+    {
+        padding: 20px 20px 10px 20px;
+    }
+
+    footer .data .title
+    {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+
+    footer .time .item .day
+    {
+        width: 140px;
+    }
+
+    footer .time .item .val
+    {
+        width: calc(100% - 140px);
+    }
+
+    footer .time .item strong
+    {
+        font-size: 14px;
+    }
+
+
+    footer .director .phone a
+    {
+        font-size: 14px;
+    }
+
+    footer .director .phone
+    {
+        background-position: 1px 3px;
+    }
+
+    footer .director .email
+    {
+        background-position: 1px 6px;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

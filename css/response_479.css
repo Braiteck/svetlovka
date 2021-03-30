@@ -1,0 +1,366 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    :root
+    {
+        --font_size: 13px;
+        --font_size_title: 26px;
+    }
+
+
+    .cont
+    {
+        padding: 0 15px;
+    }
+
+
+
+    .owl-carousel .owl-nav button
+    {
+        bottom: 24px;
+    }
+
+
+
+    .text_block h2
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block h3
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block img.right,
+    .text_block iframe.right,
+    .text_block figure.right,
+    .text_block img.left,
+    .text_block iframe.left,
+    .text_block figure.left
+    {
+        float: none;
+
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    .mob_header .logo a,
+    .mob_header .logo img
+    {
+        height: 24px;
+    }
+
+    .mob_header .cont > * + *
+    {
+        margin-left: 10px;
+    }
+
+    .mob_header .mob_menu_link
+    {
+        width: 48px;
+        margin-right: -10px;
+        margin-left: 0;
+        padding: 5px 10px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside
+    {
+        column-gap: 15px;
+    }
+
+    aside > * + *
+    {
+        margin-top: 15px;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider .slide .info
+    {
+        padding: 6px 21px 86px 21px;
+    }
+
+    .main_slider .slide .details
+    {
+        bottom: 21px;
+        left: 21px;
+    }
+
+
+
+    .products .tabs a,
+    .products .tabs a + a
+    {
+        font-size: 12px;
+        line-height: 32px;
+
+        height: 34px;
+        margin-left: 10px;
+        padding: 0 12px;
+    }
+
+
+    .products .product
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .products .product .thumb
+    {
+        width: 135px;
+    }
+
+
+
+    .events .columns .event .info,
+    .events .columns .event.big .info
+    {
+        padding: 15px 0 0 20px;
+    }
+
+    .events .columns .event .date
+    {
+        font-size: 15px;
+        line-height: 29px;
+
+        background-position: 0 7px;
+    }
+
+    .events .columns .event .adres
+    {
+        background-position: 3px 4px;
+    }
+
+
+
+    .about_books .item .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    .articles .article .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    .instagram .flex
+    {
+        --instagram_offset: 15px;
+    }
+
+    .instagram .socials > * + *
+    {
+        margin-left: 13px;
+    }
+
+
+
+    .bottom_links .item
+    {
+        margin: 0 10px 15px;
+    }
+
+    .bottom_links .item img
+    {
+        max-width: 80px;
+        max-height: 33px;
+    }
+
+    .bottom_links .item img + .name
+    {
+        margin-left: 10px;
+    }
+
+
+
+    .events .view
+    {
+        display: none;
+    }
+
+    .events .flex
+    {
+        --events_offset: 15px;
+    }
+
+    .events .event .thumb
+    {
+        margin-bottom: 15px;
+    }
+
+    .events .event .date
+    {
+        font-size: 10px;
+    }
+
+    .events .event .date .day
+    {
+        font-size: 26px;
+    }
+
+    .events .event .time
+    {
+        font-size: 16px;
+    }
+
+    .events .event .name
+    {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .events .event .adres
+    {
+        font-size: 12px;
+    }
+
+    .events .event .register_link
+    {
+        font-size: 11px;
+        line-height: 50px;
+    }
+
+
+
+    .event_info .event_name
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        margin-bottom: 25px;
+    }
+
+    .event_info .head .info
+    {
+        padding: 74px 15px 120px 15px;
+    }
+
+    .event_info .head .age
+    {
+        top: 15px;
+        left: 15px;
+    }
+
+    .event_info .head .date
+    {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .event_info .head .date .month
+    {
+        font-size: 14px;
+    }
+
+    .event_info .head .date .day
+    {
+        font-size: 38px;
+
+        margin-right: 10px;
+    }
+
+    .event_info .head .time,
+    .event_info .head .price
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .event_info .head .register_link
+    {
+        height: 68px;
+    }
+
+
+
+    .event_data .register .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    .project_info .project_name
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        margin-bottom: 25px;
+    }
+
+
+
+    .projects .slider .project .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    .projects .project .info > * + *
+    {
+        margin-top: 15px;
+    }
+
+
+
+    .page_menu
+    {
+        width: calc(100% + 6px);
+        margin-left: -6px;
+    }
+
+    .page_menu a,
+    .page_menu a + a
+    {
+        font-size: 12px;
+        line-height: 32px;
+
+        height: 34px;
+        margin-left: 6px;
+        padding: 0 10px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

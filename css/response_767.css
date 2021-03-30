@@ -1,0 +1,709 @@
+@media (max-width: 767px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    :root
+    {
+        --font_size: 13px;
+        --font_size_title: 28px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 50px;
+    }
+
+    .bg_block,
+    .bg_block2,
+    .bg_block3,
+    .bg_block4
+    {
+        padding: 50px 0;
+    }
+
+
+    .block_head .title
+    {
+        padding-left: 0;
+    }
+
+    .block_head .title:before
+    {
+        display: none;
+    }
+
+
+    .block_head .all_link
+    {
+        padding: 0 20px;
+    }
+
+
+
+    .owl-carousel .owl-nav button.owl-prev
+    {
+        right: 83px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next
+    {
+        right: 12px;
+    }
+
+
+    .carousel.owl-carousel .owl-nav button
+    {
+        top: -48px;
+    }
+
+    .carousel.owl-carousel .owl-nav button.owl-prev
+    {
+        right: auto;
+        left: 50%;
+
+        margin-left: -72px;
+    }
+
+    .carousel.owl-carousel .owl-nav button.owl-next
+    {
+        right: 50%;
+
+        margin-right: -72px;
+    }
+
+
+
+    .page_head
+    {
+        padding-bottom: 20px;
+    }
+
+
+    .breadcrumbs .sep
+    {
+        width: 15px;
+        margin: 0 5px;
+    }
+
+
+
+    .text_block
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .text_block h2
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block h3
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block h4
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block * + h2,
+    .text_block * + h3,
+    .text_block * + h4
+    {
+        margin-top: 40px;
+    }
+
+    .text_block p,
+    .text_block img,
+    .text_block blockquote,
+    .text_block q,
+    .text_block figure
+    {
+        margin-bottom: 22px;
+    }
+
+    .text_block blockquote,
+    .text_block q
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin: 25px 0;
+        padding: 20px;
+    }
+
+    .text_block blockquote .author,
+    .text_block q .author
+    {
+        margin-top: 15px;
+    }
+
+    .text_block blockquote:before,
+    .text_block q:before
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    .mob_header .logo a,
+    .mob_header .logo img
+    {
+        height: 26px;
+    }
+
+    .mob_header .cont > * + *
+    {
+        margin-left: 15px;
+    }
+
+    .mob_header .mob_menu_link
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside
+    {
+        margin-top: 40px;
+
+        column-count: 2;
+    }
+
+    aside > *
+    {
+        padding-top: 0;
+    }
+
+
+    aside .calendar
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: 100%;
+
+        column-span: all;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider
+    {
+        margin-bottom: 50px;
+    }
+
+    .main_slider .slide .img
+    {
+        width: 100%;
+        min-height: 0;
+        padding-bottom: 65%;
+    }
+
+    .main_slider .slide .img img
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+    .main_slider .slide .info
+    {
+        width: 100%;
+        padding: 6px 26px 91px 26px;
+    }
+
+    .main_slider .slide .info:before
+    {
+        border: 6px solid #dbdbd9;
+    }
+
+    .main_slider .slide .desc
+    {
+        line-height: 21px;
+
+        height: 126px;
+        margin-top: 20px;
+    }
+
+
+
+    .products .tabs
+    {
+        margin-bottom: 20px;
+        margin-left: -10px;
+        padding-right: 0;
+
+        justify-content: center;
+    }
+
+    .products .tabs a,
+    .products .tabs a + a
+    {
+        font-size: 13px;
+        line-height: 36px;
+
+        height: 38px;
+        margin-left: 10px;
+        padding: 0 15px;
+    }
+
+    .products .tab_content.active .slider.carousel
+    {
+        margin-top: 58px;
+    }
+
+
+    .products .product
+    {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .products .product .thumb
+    {
+        width: 170px;
+        margin-bottom: 15px;
+        padding-bottom: 100%;
+    }
+
+    .products .product .author
+    {
+        font-size: 12px;
+    }
+
+
+
+    .events .columns
+    {
+        column-count: 1;
+        column-gap: 0;
+    }
+
+    .events .columns > * + *,
+    .events .columns > *.big + *
+    {
+        margin-top: 40px;
+        padding-top: 0;
+    }
+
+    .events .columns .event.big .thumb
+    {
+        padding-bottom: 70%;
+    }
+
+    .events .columns .event .info,
+    .events .columns .event.big .info
+    {
+        margin-left: 50px;
+        padding: 20px 0 0 25px;
+    }
+
+
+
+    .about_books .block_head
+    {
+        text-align: center;
+    }
+
+    .about_books .slider
+    {
+        margin-top: 58px;
+    }
+
+
+
+    .articles .block_head
+    {
+        text-align: center;
+    }
+
+    .articles .tabs
+    {
+        margin-bottom: 20px;
+        margin-left: -10px;
+        padding-right: 0;
+
+        justify-content: center;
+    }
+
+    .articles .tabs a,
+    .articles .tabs a + a
+    {
+        font-size: 13px;
+        line-height: 36px;
+
+        height: 38px;
+        margin-left: 10px;
+        padding: 0 15px;
+    }
+
+    .articles .tab_content.active .slider.carousel,
+    .articles .cont > .slider.carousel
+    {
+        margin-top: 58px;
+    }
+
+
+
+    .instagram .block_head
+    {
+        text-align: center;
+
+        justify-content: center;
+    }
+
+    .instagram .block_head .link
+    {
+        font-size: 22px;
+
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .instagram .flex
+    {
+        --instagram_count: 3;
+    }
+
+    .instagram .socials
+    {
+        width: calc(100% - var(--instagram_offset));
+
+        justify-content: center;
+    }
+
+    .instagram .socials > * + *
+    {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    .instagram .socials a
+    {
+        font-size: 12px;
+    }
+
+
+
+    .bottom_links .item
+    {
+        margin: 0 15px 15px;
+    }
+
+
+
+    .events .head
+    {
+        margin-bottom: 20px;
+    }
+
+    .events .view
+    {
+        margin-right: 0;
+    }
+
+
+    .events .slider.carousel
+    {
+        margin-top: 58px;
+    }
+
+
+    .events .flex
+    {
+        margin-bottom: -40px;
+
+        --events_count: 2;
+    }
+
+    .events .flex > *
+    {
+        margin-bottom: 40px;
+    }
+
+    .events .flex > *:nth-child(2)
+    {
+        margin-right: 0;
+    }
+
+
+
+    .events .list
+    {
+        padding: 0;
+    }
+
+
+
+    .event_info .event_name
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .event_info .head
+    {
+        margin-bottom: 30px;
+    }
+
+    .event_info .head .info
+    {
+        display: flex;
+
+        width: 100%;
+        margin: 0;
+        padding: 84px 20px 125px 20px;
+
+        border: 6px solid #d1d1d1;
+        border-bottom: none;
+
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .event_info .head .age
+    {
+        left: 20px;
+    }
+
+    .event_info .head .date
+    {
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+    .event_info .head .date .month
+    {
+        font-size: 15px;
+    }
+
+    .event_info .head .time,
+    .event_info .head .price
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-top: 0;
+    }
+
+    .event_info .head .adres
+    {
+        font-size: 12px;
+
+        margin-top: 15px;
+    }
+
+    .event_info .head .register_link
+    {
+        width: calc(100% + 12px);
+    }
+
+
+    .event_info .head .img
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: 100%;
+        height: auto;
+        padding-bottom: 75%;
+    }
+
+
+
+    .event_data .features
+    {
+        width: 100%;
+    }
+
+    .event_data .info
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .event_data .register .title
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .event_data .register .form > *
+    {
+        width: calc(100% - var(--register_offset));
+    }
+
+    .event_data .register .form > * + *
+    {
+        margin-top: 15px;
+    }
+
+
+
+    .projects .slider.carousel
+    {
+        margin-top: 58px;
+    }
+
+    .projects .slider .project .info
+    {
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    .projects .slider .project .desc
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        padding-left: 15px;
+    }
+
+
+
+    .project_info .project_name
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 30px;
+    }
+
+
+
+    .project_info .share a
+    {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+
+    .project_info .share a.link
+    {
+        font-size: 10px;
+        line-height: 38px;
+
+        width: auto;
+        height: 40px;
+        margin-left: 10px;
+        padding: 0 15px;
+    }
+
+    .project_info .share a.link img
+    {
+        margin-left: 15px;
+    }
+
+
+
+    .projects .view
+    {
+        display: none;
+    }
+
+
+    .projects .flex
+    {
+        margin-bottom: -30px;
+
+        --projects_count: 1;
+        --projects_offset: 20px;
+    }
+
+    .projects .flex > *
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    .page_menu a,
+    .page_menu a + a
+    {
+        font-size: 13px;
+        line-height: 36px;
+
+        height: 38px;
+        padding: 0 12px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .contacts .item
+    {
+        width: 100%;
+        padding: 20px 25px;
+    }
+
+    footer .contacts .item .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        min-height: 0;
+    }
+
+
+    footer .data .logo
+    {
+        padding: 20px 25px 15px 25px;
+    }
+
+    footer .data .logo img.sep,
+    footer .data .logo img.dep
+    {
+        display: none;
+
+        margin-left: 15px;
+    }
+
+
+    footer .data > *
+    {
+        width: 100%;
+        padding: 10px 25px 20px;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}
