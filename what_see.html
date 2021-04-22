@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Переключение IE в последнию версию, на случай если в настройках пользователя стоит меньшая -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/datepicker.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1279.css" media="(max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+		<link rel="stylesheet" href="css/response_413.css" media="(max-width: 413px)">
+	</head>
+
+	<body style="opacity: 0" class="inner">
+		<div class="wrap">
+			<div class="main">
+				<!-- Шапка -->
+				<div class="mob_header">
+					<div class="cont">
+
+						<div class="logo">
+							<a href="/"><img src="images/mob_logo.png" alt=""></a>
+						</div>
+
+						<a href="#" class="glasses">
+							<svg viewBox="0 0 18462.41 13142.23">
+								<path d="M17264.22 7432.21l643.63 0c153.13,0 291.8,62.08 392.13,162.43 100.36,100.36 162.43,239 162.43,392.13 0,153.13 -62.07,291.77 -162.43,392.13 -100.36,100.36 -239,162.43 -392.13,162.43l-507.18 0 0 2233.9c0,656.34 -265.91,1245.45 -692.28,1671.81 -430.62,430.62 -1025.12,695.18 -1674.71,695.18l0 -0.78 -2957.94 0.01 0 0.78c-656.34,0 -1245.45,-265.91 -1671.81,-692.28 -430.62,-430.62 -695.18,-1025.12 -695.18,-1674.71l0 -110.41 -955.07 0 0 110.41c0,649.59 -264.56,1244.09 -695.18,1674.71 -426.36,426.37 -1015.47,692.28 -1671.81,692.28l0 -0.78 -2957.94 -0.01 0 0.78c-649.59,0 -1244.09,-264.56 -1674.71,-695.18 -426.37,-426.36 -692.28,-1015.47 -692.28,-1671.81l0 -2233.9 -507.18 0c-153.13,0 -291.77,-62.07 -392.13,-162.43 -100.36,-100.36 -162.43,-239 -162.43,-392.13 0,-153.13 62.07,-291.77 162.43,-392.13 100.33,-100.35 239,-162.43 392.13,-162.43l643.63 0 1757.65 -6151.69c107.91,-377.99 334.87,-698.8 634.38,-924.74 298.04,-224.83 667.52,-355.77 1062.7,-355.77 486.65,0 927.91,197.93 1247.45,517.47 319.55,319.54 517.47,760.79 517.47,1247.45 0,153.13 -62.07,291.77 -162.43,392.13 -100.36,100.36 -239,162.43 -392.13,162.43 -153.13,0 -291.8,-62.08 -392.13,-162.43 -100.35,-100.33 -162.43,-239 -162.43,-392.13 0,-180.73 -73.58,-344.68 -192.35,-463.45 -118.77,-118.77 -282.72,-192.35 -463.45,-192.35 -146.71,0 -284.49,48.32 -395.4,131.98 -110.73,83.54 -195.13,202.38 -235.48,343.66l-1670.72 5847.44 13759.76 0 -1670.72 -5847.44c-40.35,-141.28 -124.75,-260.13 -235.48,-343.66 -110.91,-83.67 -248.69,-131.98 -395.4,-131.98 -180.73,0 -344.68,73.58 -463.45,192.35 -118.77,118.77 -192.35,282.72 -192.35,463.45 0,153.13 -62.08,291.8 -162.43,392.13 -100.33,100.35 -239,162.43 -392.13,162.43 -153.13,0 -291.77,-62.07 -392.13,-162.43 -100.36,-100.36 -162.43,-239 -162.43,-392.13 0,-486.65 197.93,-927.91 517.47,-1247.45 319.54,-319.55 760.79,-517.47 1247.45,-517.47 395.18,0 764.67,130.94 1062.7,355.77 299.51,225.94 526.47,546.75 634.38,924.74l1757.65 6151.69zm-7555.48 1109.12l-955.07 0 0 1014.37 955.07 0 0 -1014.37zm-6280 3491.77l2957.95 0c347.39,0 661.32,-141.16 888.67,-368.51 228.22,-228.22 369.2,-543.22 369.2,-889.36l0 -2233.9 -5473.69 0 0 2233.9c0,347.39 141.16,661.32 368.51,888.67 228.22,228.22 543.22,369.2 889.36,369.2zm8646.99 0l2957.95 0c346.14,0 661.13,-140.97 889.36,-369.2 227.35,-227.35 368.51,-541.29 368.51,-888.67l0 -2233.9 -5473.69 0 0 2233.9c0,346.14 140.97,661.13 369.2,889.36 227.35,227.35 541.29,368.51 888.67,368.51z"/>
+							</svg>
+						</a>
+
+
+						<div class="account">
+							<a href="#" class="link"></a>
+						</div>
+
+
+						<div class="modal_cont search">
+							<a href="#" class="mini_modal_link search_link" data-modal-id="#search_modal">
+								<svg height="180.622mm" viewBox="0 0 18062.18 18062.2">
+									<path d="M18062.18 7408.32c0,1286.54 -335.14,2554.05 -969.17,3665.72 -193.06,338.45 -623.84,456.27 -962.42,263.21 -338.45,-193.06 -456.41,-623.98 -263.21,-962.42 512.63,-898.89 783.69,-1924.7 783.69,-2966.5 0,-3306.87 -2690.34,-5997.22 -5997.22,-5997.22 -3306.88,0 -5997.22,2690.34 -5997.22,5997.22 0,3306.88 2690.34,5997.22 5997.22,5997.22 1029.12,0 2044.04,-264.86 2934.94,-765.91 339.69,-191 769.91,-70.42 960.91,269.13 191,339.69 70.56,769.91 -269.13,960.77 -1101.6,619.7 -2355.75,947.12 -3626.72,947.12 -1780.7,0 -3416.57,-631.69 -4695.66,-1682.58l-4755.47 4723.22c-137.53,136.56 -317.36,204.91 -497.2,204.91 -181.35,0 -362.7,-69.45 -500.64,-208.36 -274.5,-276.43 -272.99,-723.19 3.45,-997.84l4749.13 -4716.74c-1068.39,-1284.19 -1711.94,-2933.7 -1711.94,-4730.94 0,-4084.91 3323.41,-7408.33 7408.33,-7408.33 4084.92,0 7408.33,3323.41 7408.33,7408.33l0 -0.01z"/>
+								</svg>
+							</a>
+
+							<div class="mini_modal" id="search_modal">
+								<form action="">
+									<input type="text" name="" value="" placeholder="Поиск по сайту" class="input">
+
+									<button type="submit" class="submit_btn">
+										<svg height="180.622mm" viewBox="0 0 18062.18 18062.2">
+											<path d="M18062.18 7408.32c0,1286.54 -335.14,2554.05 -969.17,3665.72 -193.06,338.45 -623.84,456.27 -962.42,263.21 -338.45,-193.06 -456.41,-623.98 -263.21,-962.42 512.63,-898.89 783.69,-1924.7 783.69,-2966.5 0,-3306.87 -2690.34,-5997.22 -5997.22,-5997.22 -3306.88,0 -5997.22,2690.34 -5997.22,5997.22 0,3306.88 2690.34,5997.22 5997.22,5997.22 1029.12,0 2044.04,-264.86 2934.94,-765.91 339.69,-191 769.91,-70.42 960.91,269.13 191,339.69 70.56,769.91 -269.13,960.77 -1101.6,619.7 -2355.75,947.12 -3626.72,947.12 -1780.7,0 -3416.57,-631.69 -4695.66,-1682.58l-4755.47 4723.22c-137.53,136.56 -317.36,204.91 -497.2,204.91 -181.35,0 -362.7,-69.45 -500.64,-208.36 -274.5,-276.43 -272.99,-723.19 3.45,-997.84l4749.13 -4716.74c-1068.39,-1284.19 -1711.94,-2933.7 -1711.94,-4730.94 0,-4084.91 3323.41,-7408.33 7408.33,-7408.33 4084.92,0 7408.33,3323.41 7408.33,7408.33l0 -0.01z"/>
+										</svg>
+									</button>
+								</form>
+							</div>
+						</div>
+
+
+						<a href="#" class="mob_menu_link">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+
+					</div>
+				</div>
+
+
+				<header>
+					<a href="#" class="close">
+						<span></span>
+						<span></span>
+					</a>
+
+					<div class="scroll">
+						<div class="info">
+							<div class="cont flex">
+
+								<div class="logo">
+									<a href="/"><img src="images/logo.png" alt=""></a>
+
+									<img src="images/logo_sep.png" alt="" class="sep">
+
+									<img src="images/logo_dep.png" alt="" class="dep">
+								</div>
+
+
+								<div class="col_right">
+									<div class="links">
+										<div><a href="/">О библиотеке</a></div>
+										<div><a href="/">Коллегам</a></div>
+										<div><a href="/">Партнерам</a></div>
+									</div>
+
+
+									<a href="#" class="glasses">
+										<svg viewBox="0 0 18462.41 13142.23">
+											<path d="M17264.22 7432.21l643.63 0c153.13,0 291.8,62.08 392.13,162.43 100.36,100.36 162.43,239 162.43,392.13 0,153.13 -62.07,291.77 -162.43,392.13 -100.36,100.36 -239,162.43 -392.13,162.43l-507.18 0 0 2233.9c0,656.34 -265.91,1245.45 -692.28,1671.81 -430.62,430.62 -1025.12,695.18 -1674.71,695.18l0 -0.78 -2957.94 0.01 0 0.78c-656.34,0 -1245.45,-265.91 -1671.81,-692.28 -430.62,-430.62 -695.18,-1025.12 -695.18,-1674.71l0 -110.41 -955.07 0 0 110.41c0,649.59 -264.56,1244.09 -695.18,1674.71 -426.36,426.37 -1015.47,692.28 -1671.81,692.28l0 -0.78 -2957.94 -0.01 0 0.78c-649.59,0 -1244.09,-264.56 -1674.71,-695.18 -426.37,-426.36 -692.28,-1015.47 -692.28,-1671.81l0 -2233.9 -507.18 0c-153.13,0 -291.77,-62.07 -392.13,-162.43 -100.36,-100.36 -162.43,-239 -162.43,-392.13 0,-153.13 62.07,-291.77 162.43,-392.13 100.33,-100.35 239,-162.43 392.13,-162.43l643.63 0 1757.65 -6151.69c107.91,-377.99 334.87,-698.8 634.38,-924.74 298.04,-224.83 667.52,-355.77 1062.7,-355.77 486.65,0 927.91,197.93 1247.45,517.47 319.55,319.54 517.47,760.79 517.47,1247.45 0,153.13 -62.07,291.77 -162.43,392.13 -100.36,100.36 -239,162.43 -392.13,162.43 -153.13,0 -291.8,-62.08 -392.13,-162.43 -100.35,-100.33 -162.43,-239 -162.43,-392.13 0,-180.73 -73.58,-344.68 -192.35,-463.45 -118.77,-118.77 -282.72,-192.35 -463.45,-192.35 -146.71,0 -284.49,48.32 -395.4,131.98 -110.73,83.54 -195.13,202.38 -235.48,343.66l-1670.72 5847.44 13759.76 0 -1670.72 -5847.44c-40.35,-141.28 -124.75,-260.13 -235.48,-343.66 -110.91,-83.67 -248.69,-131.98 -395.4,-131.98 -180.73,0 -344.68,73.58 -463.45,192.35 -118.77,118.77 -192.35,282.72 -192.35,463.45 0,153.13 -62.08,291.8 -162.43,392.13 -100.33,100.35 -239,162.43 -392.13,162.43 -153.13,0 -291.77,-62.07 -392.13,-162.43 -100.36,-100.36 -162.43,-239 -162.43,-392.13 0,-486.65 197.93,-927.91 517.47,-1247.45 319.54,-319.55 760.79,-517.47 1247.45,-517.47 395.18,0 764.67,130.94 1062.7,355.77 299.51,225.94 526.47,546.75 634.38,924.74l1757.65 6151.69zm-7555.48 1109.12l-955.07 0 0 1014.37 955.07 0 0 -1014.37zm-6280 3491.77l2957.95 0c347.39,0 661.32,-141.16 888.67,-368.51 228.22,-228.22 369.2,-543.22 369.2,-889.36l0 -2233.9 -5473.69 0 0 2233.9c0,347.39 141.16,661.32 368.51,888.67 228.22,228.22 543.22,369.2 889.36,369.2zm8646.99 0l2957.95 0c346.14,0 661.13,-140.97 889.36,-369.2 227.35,-227.35 368.51,-541.29 368.51,-888.67l0 -2233.9 -5473.69 0 0 2233.9c0,346.14 140.97,661.13 369.2,889.36 227.35,227.35 541.29,368.51 888.67,368.51z"/>
+										</svg>
+									</a>
+
+
+									<div class="account">
+										<a href="#" class="link">Личный кабинет</a>
+									</div>
+								</div>
+
+
+								<nav class="menu flex">
+									<div class="item">
+										<a class="active">Афиша</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Проекты</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Каталог</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Книги</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Услуги</a>
+									</div>
+								</nav>
+
+
+								<div class="search">
+									<form action="">
+										<input type="text" name="" value="" placeholder="Поиск по сайту" class="input">
+
+										<button type="submit" class="submit_btn">
+											<svg height="180.622mm" viewBox="0 0 18062.18 18062.2">
+												<path d="M18062.18 7408.32c0,1286.54 -335.14,2554.05 -969.17,3665.72 -193.06,338.45 -623.84,456.27 -962.42,263.21 -338.45,-193.06 -456.41,-623.98 -263.21,-962.42 512.63,-898.89 783.69,-1924.7 783.69,-2966.5 0,-3306.87 -2690.34,-5997.22 -5997.22,-5997.22 -3306.88,0 -5997.22,2690.34 -5997.22,5997.22 0,3306.88 2690.34,5997.22 5997.22,5997.22 1029.12,0 2044.04,-264.86 2934.94,-765.91 339.69,-191 769.91,-70.42 960.91,269.13 191,339.69 70.56,769.91 -269.13,960.77 -1101.6,619.7 -2355.75,947.12 -3626.72,947.12 -1780.7,0 -3416.57,-631.69 -4695.66,-1682.58l-4755.47 4723.22c-137.53,136.56 -317.36,204.91 -497.2,204.91 -181.35,0 -362.7,-69.45 -500.64,-208.36 -274.5,-276.43 -272.99,-723.19 3.45,-997.84l4749.13 -4716.74c-1068.39,-1284.19 -1711.94,-2933.7 -1711.94,-4730.94 0,-4084.91 3323.41,-7408.33 7408.33,-7408.33 4084.92,0 7408.33,3323.41 7408.33,7408.33l0 -0.01z"/>
+											</svg>
+
+										</button>
+									</form>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</header>
+				<!-- End Шапка -->
+
+
+				<!-- Основная часть -->
+				<section class="page_head">
+					<div class="cont">
+
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							Что посмотреть
+						</div>
+
+					</div>
+				</section>
+
+
+				<section class="what_see">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Что посмотреть</div>
+						</div>
+					</div>
+
+
+					<section class="new">
+						<div class="cont">
+							<div class="block_title">Новое</div>
+
+							<div class="count">
+								<div class="current">1</div>
+								<div class="total">0</div>
+							</div>
+
+							<div class="slider owl-carousel">
+								<div class="slide">
+									<div class="item">
+										<a href="/" class="thumb">
+											<img src="images/tmp/what_see_new_thumb.jpg" alt="">
+										</a>
+
+										<div class="icon">
+											<img src="images/ic_video_play.svg" alt="">
+										</div>
+
+										<div class="timeline">
+											<div class="start">0:00</div>
+											<div class="finish">1:00:15</div>
+										</div>
+
+										<div class="reading">Читает: Константин Константинопольский</div>
+
+										<div class="name">
+											<a href="/">Молодость, ирония, творческий риск: какими были писатели-романтики</a>
+										</div>
+
+										<div class="desc">Дмитрий Быков — русский писатель, поэт и публицист, литературный критик, радио- и телеведущий, журналист, преподаватель литературы, кинокритик. В интервью Светловке он рассказал, как стать писателем. Полное описание и расшифровку ролика смотрите здесь.</div>
+									</div>
+
+									<div class="share">
+										<span>Поделиться</span>
+
+										<a href="/">
+											<img src="images/ic_share_instagram.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_vkontakte.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_youtube.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_facebook.svg" alt="">
+										</a>
+									</div>
+								</div>
+
+
+								<div class="slide">
+									<div class="item">
+										<a href="/" class="thumb">
+											<img src="images/tmp/what_see_new_thumb.jpg" alt="">
+										</a>
+
+										<div class="icon">
+											<img src="images/ic_video_play.svg" alt="">
+										</div>
+
+										<div class="timeline">
+											<div class="start">0:00</div>
+											<div class="finish">1:00:15</div>
+										</div>
+
+										<div class="reading">Читает: Константин Константинопольский</div>
+
+										<div class="name">
+											<a href="/">Молодость, ирония, творческий риск: какими были писатели-романтики</a>
+										</div>
+
+										<div class="desc">Дмитрий Быков — русский писатель, поэт и публицист, литературный критик, радио- и телеведущий, журналист, преподаватель литературы, кинокритик. В интервью Светловке он рассказал, как стать писателем. Полное описание и расшифровку ролика смотрите здесь.</div>
+									</div>
+
+									<div class="share">
+										<span>Поделиться</span>
+
+										<a href="/">
+											<img src="images/ic_share_instagram.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_vkontakte.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_youtube.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_facebook.svg" alt="">
+										</a>
+									</div>
+								</div>
+
+
+								<div class="slide">
+									<div class="item">
+										<a href="/" class="thumb">
+											<img src="images/tmp/what_see_new_thumb.jpg" alt="">
+										</a>
+
+										<div class="icon">
+											<img src="images/ic_video_play.svg" alt="">
+										</div>
+
+										<div class="timeline">
+											<div class="start">0:00</div>
+											<div class="finish">1:00:15</div>
+										</div>
+
+										<div class="reading">Читает: Константин Константинопольский</div>
+
+										<div class="name">
+											<a href="/">Молодость, ирония, творческий риск: какими были писатели-романтики</a>
+										</div>
+
+										<div class="desc">Дмитрий Быков — русский писатель, поэт и публицист, литературный критик, радио- и телеведущий, журналист, преподаватель литературы, кинокритик. В интервью Светловке он рассказал, как стать писателем. Полное описание и расшифровку ролика смотрите здесь.</div>
+									</div>
+
+									<div class="share">
+										<span>Поделиться</span>
+
+										<a href="/">
+											<img src="images/ic_share_instagram.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_vkontakte.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_youtube.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_facebook.svg" alt="">
+										</a>
+									</div>
+								</div>
+
+
+								<div class="slide">
+									<div class="item">
+										<a href="/" class="thumb">
+											<img src="images/tmp/what_see_new_thumb.jpg" alt="">
+										</a>
+
+										<div class="icon">
+											<img src="images/ic_video_play.svg" alt="">
+										</div>
+
+										<div class="timeline">
+											<div class="start">0:00</div>
+											<div class="finish">1:00:15</div>
+										</div>
+
+										<div class="reading">Читает: Константин Константинопольский</div>
+
+										<div class="name">
+											<a href="/">Молодость, ирония, творческий риск: какими были писатели-романтики</a>
+										</div>
+
+										<div class="desc">Дмитрий Быков — русский писатель, поэт и публицист, литературный критик, радио- и телеведущий, журналист, преподаватель литературы, кинокритик. В интервью Светловке он рассказал, как стать писателем. Полное описание и расшифровку ролика смотрите здесь.</div>
+									</div>
+
+									<div class="share">
+										<span>Поделиться</span>
+
+										<a href="/">
+											<img src="images/ic_share_instagram.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_vkontakte.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_youtube.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_facebook.svg" alt="">
+										</a>
+									</div>
+								</div>
+
+
+								<div class="slide">
+									<div class="item">
+										<a href="/" class="thumb">
+											<img src="images/tmp/what_see_new_thumb.jpg" alt="">
+										</a>
+
+										<div class="icon">
+											<img src="images/ic_video_play.svg" alt="">
+										</div>
+
+										<div class="timeline">
+											<div class="start">0:00</div>
+											<div class="finish">1:00:15</div>
+										</div>
+
+										<div class="reading">Читает: Константин Константинопольский</div>
+
+										<div class="name">
+											<a href="/">Молодость, ирония, творческий риск: какими были писатели-романтики</a>
+										</div>
+
+										<div class="desc">Дмитрий Быков — русский писатель, поэт и публицист, литературный критик, радио- и телеведущий, журналист, преподаватель литературы, кинокритик. В интервью Светловке он рассказал, как стать писателем. Полное описание и расшифровку ролика смотрите здесь.</div>
+									</div>
+
+									<div class="share">
+										<span>Поделиться</span>
+
+										<a href="/">
+											<img src="images/ic_share_instagram.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_vkontakte.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_youtube.svg" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_share_facebook.svg" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="videos">
+						<div class="cont">
+							<div class="flex">
+								<a href="/" class="item">
+									<div class="thumb">
+										<img src="images/tmp/what_see_videos_thumb.jpg" alt="">
+									</div>
+
+									<div class="info">
+										<div class="count">
+											<div class="icon">
+												<img src="images/ic_video_play.svg" alt="">
+											</div>
+											<span>2</span> видео
+										</div>
+
+										<div>
+											<div class="name">Концерты</div>
+
+											<div class="desc">Лекции и дискуссии о литературе и культуре, о психологии и языке, о путешествиях и истории.</div>
+										</div>
+									</div>
+								</a>
+
+
+								<a href="/" class="item">
+									<div class="thumb">
+										<img src="images/tmp/what_see_videos_thumb2.jpg" alt="">
+									</div>
+
+									<div class="info">
+										<div class="count">
+											<div class="icon">
+												<img src="images/ic_video_play.svg" alt="">
+											</div>
+											<span>2</span> видео
+										</div>
+
+										<div>
+											<div class="name">Онлайн-лекторий</div>
+
+											<div class="desc">Лекции и дискуссии о литературе и культуре, о психологии и языке, о путешествиях и истории.</div>
+										</div>
+									</div>
+								</a>
+
+
+								<a href="/" class="item">
+									<div class="thumb">
+										<img src="images/tmp/what_see_videos_thumb3.jpg" alt="">
+									</div>
+
+									<div class="info">
+										<div class="count">
+											<div class="icon">
+												<img src="images/ic_video_play.svg" alt="">
+											</div>
+											<span>2</span> видео
+										</div>
+
+										<div>
+											<div class="name">Концерты</div>
+
+											<div class="desc">Лекции и дискуссии о литературе и культуре, о психологии и языке, о путешествиях и истории.</div>
+										</div>
+									</div>
+								</a>
+
+
+								<a href="/" class="item">
+									<div class="thumb">
+										<img src="images/tmp/what_see_videos_thumb4.jpg" alt="">
+									</div>
+
+									<div class="info">
+										<div class="count">
+											<div class="icon">
+												<img src="images/ic_video_play.svg" alt="">
+											</div>
+											<span>2</span> видео
+										</div>
+
+										<div>
+											<div class="name">Онлайн-лекторий</div>
+
+											<div class="desc">Лекции и дискуссии о литературе и культуре, о психологии и языке, о путешествиях и истории.</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="spec_projects bg_block2">
+						<div class="cont">
+							<div class="block_head">
+								<div class="title">Спецпроекты</div>
+							</div>
+
+
+							<div class="flex">
+								<div class="project">
+									<div class="name">
+										<a href="/">VR-истории  “VReadings”</a>
+									</div>
+
+									<div class="count">2 видео</div>
+
+									<a href="/" class="thumb">
+										<div class="sticker">Спецпроект</div>
+
+										<div class="icon">
+											<img src="images/ic_video_play.svg" alt="">
+										</div>
+
+										<img data-src="images/tmp/about_books_thumb.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="desc">Новый уникальный и не имеющий аналогов в мире формат проекта стартует в России.</div>
+								</div>
+
+
+								<div class="project">
+									<div class="name">VR-истории  “VReadings”</div>
+
+									<div class="count">2 видео</div>
+
+									<div class="thumb">
+										<div class="sticker">Спецпроект</div>
+
+										<div class="icon">
+											<img src="images/ic_video_play.svg" alt="">
+										</div>
+
+										<img data-src="images/tmp/about_books_thumb2.jpg" alt="" class="lozad">
+									</div>
+
+									<div class="desc">Совместно с профессиональными актерами и режиссерами театрального клуба «Аура» в Светловке читают классические и современные пьесы отечественных и зарубежных авторов.</div>
+								</div>
+							</div>
+
+
+							<div class="slider_wrap">
+								<div class="slider owl-carousel">
+									<div class="slide">
+										<a href="/" class="item">
+											<div class="thumb">
+												<div class="icon">
+													<img src="images/ic_video_play.svg" alt="">
+												</div>
+
+												<img data-src="images/tmp/project_thumb.jpg" alt="" class="lozad">
+											</div>
+
+											<div class="info">
+												<div class="name">Презентация проекта молодых художников “Женские лица”</div>
+
+												<div class="desc">«Встречи на Большой Садовой» – культурно-просветительский проект Светловки</div>
+											</div>
+										</a>
+									</div>
+
+									<div class="slide">
+										<a href="/" class="item">
+											<div class="thumb">
+												<div class="icon">
+													<img src="images/ic_video_play.svg" alt="">
+												</div>
+
+												<img data-src="images/tmp/project_thumb2.jpg" alt="" class="lozad">
+											</div>
+
+											<div class="info">
+												<div class="name">Ренессанс и его отголоски в западной культуре 21 века.</div>
+
+												<div class="desc">«Встречи на Большой Садовой» – культурно-просветительский проект Светловки</div>
+											</div>
+										</a>
+									</div>
+
+									<div class="slide">
+										<a href="/" class="item">
+											<div class="thumb">
+												<div class="icon">
+													<img src="images/ic_video_play.svg" alt="">
+												</div>
+
+												<img data-src="images/tmp/project_thumb.jpg" alt="" class="lozad">
+											</div>
+
+											<div class="info">
+												<div class="name">Презентация проекта молодых художников “Женские лица”</div>
+
+												<div class="desc">«Встречи на Большой Садовой» – культурно-просветительский проект Светловки</div>
+											</div>
+										</a>
+									</div>
+
+									<div class="slide">
+										<a href="/" class="item">
+											<div class="thumb">
+												<div class="icon">
+													<img src="images/ic_video_play.svg" alt="">
+												</div>
+
+												<img data-src="images/tmp/project_thumb2.jpg" alt="" class="lozad">
+											</div>
+
+											<div class="info">
+												<div class="name">Ренессанс и его отголоски в западной культуре 21 века.</div>
+
+												<div class="desc">«Встречи на Большой Садовой» – культурно-просветительский проект Светловки</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="count">
+									<div class="current">1</div>
+									<div class="total">0</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</section>
+				<!-- End Основная часть -->
+			</div>
+
+
+			<!-- Подвал -->
+			<footer>
+				<div class="info">
+					<div class="cont">
+
+						<div class="contacts">
+							<div class="item">
+								<div class="name">Молодежный медиацентр</div>
+
+								<div class="adres">123001, г. Москва,<br> ул. Большая Садовая, д. 1</div>
+
+								<div class="metro">
+									<div>"Маяковская"</div>
+								</div>
+
+								<div class="phone">
+									<a href="tel:84992505181">8 (499) 250-51-81</a>
+								</div>
+
+								<div class="email">
+									<a href="mailto:mediateka@svetlovka.ru">mediateka@svetlovka.ru</a>
+								</div>
+							</div>
+
+
+							<div class="item">
+								<div class="name">Абонемент и сектор литературы по искусству</div>
+
+								<div class="adres">123001, г. Москва,<br> ул. Садовая-Кудринская, д. 23</div>
+
+								<div class="metro">
+									<div>"Маяковская"</div>
+								</div>
+
+								<div class="phone">
+									<a href="tel:84992546271">8 (499) 254-62-71</a>
+									<span>абонемент</span>
+								</div>
+
+								<div class="phone">
+									<a href="tel:84992548475">8 (499) 254-84-75</a>
+									<span>сектор литературы<br> по искусству</span>
+								</div>
+
+								<div class="email">
+									<a href="mailto:svetlovka_biblio@inbox.ru">svetlovka_biblio@inbox.ru</a>
+								</div>
+							</div>
+
+
+							<div class="item">
+								<div class="name">Детско-юношеский отдел</div>
+
+								<div class="adres">123557, г. Москва,<br> пер. Большой Тишинский, д. 24</div>
+
+								<div class="metro">
+									<div>Улица 1905 года</div>
+									<div>Баррикадная</div>
+									<div>Белорусская</div>
+								</div>
+
+								<div class="phone">
+									<a href="tel:84992542047">8 (499) 254-20-47</a>
+									<span>абонемент</span>
+								</div>
+
+								<div class="email">
+									<a href="mailto:deti@svetlovka.ru">deti@svetlovka.ru</a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="data">
+							<div class="logo">
+								<a href="/"><img src="images/footer_logo.png" alt=""></a>
+
+								<img src="images/footer_logo_sep.png" alt="" class="sep">
+
+								<img src="images/footer_logo_dep.png" alt="" class="dep">
+							</div>
+
+
+							<div class="time">
+								<div class="title">Режим работы:</div>
+
+								<div class="item">
+									<div class="day">Вторник – Суббота:</div>
+									<div class="val"><strong>10:00 – 20:00</strong></div>
+								</div>
+
+								<div class="item">
+									<div class="day">Воскресенье:</div>
+									<div class="val"><strong>10:00 – 20:00</strong></div>
+								</div>
+
+								<div class="item">
+									<div class="day">Понедельник:</div>
+									<div class="val"><b>выходной</b></div>
+								</div>
+
+								<div class="item">
+									<div class="day">санитарный день:</div>
+									<div class="val">последний вторник месяца</div>
+								</div>
+							</div>
+
+
+							<div class="director">
+								<div class="title">Часы приема директора:</div>
+
+								<div>Вторник: <strong>6:00 – 18:00</strong></div>
+
+								<div>По предварительной записи</div>
+
+								<div class="phone">
+									<a href="tel:84992505181">8 (499) 250-51-81</a>
+								</div>
+
+								<div class="email">
+									<a href="mailto:mediateka@svetlovka.ru">mediateka@svetlovka.ru</a>
+								</div>
+							</div>
+
+
+							<div class="socials">
+								<div class="title">Мы в социальных сетях:</div>
+
+								<div class="flex">
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<span class="soc1"></span>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<span class="soc2"></span>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<span class="soc3"></span>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<span class="soc4"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont flex">
+						<div class="copyright">2003-2019 &copy;</div>
+
+						<div class="text">Вся информация на сервере представлена исключительно для ознакомительного просмотра ГБУК города Москвы "Центральная городская молодежная библиотека имени М. А. Светлова"</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener">разработка сайта</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- End Подвал -->
+		</div>
+
+
+		<div class="overlay"></div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/jquery-migrate-1.4.1.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/datepicker.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

@@ -507,6 +507,73 @@
 
 
 
+    .what_see .new .block_title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .what_see .new .owl-carousel .owl-nav button
+    {
+        top: 80px;
+    }
+
+
+    .what_see .new .item
+    {
+        padding: 64px 0 12px;
+    }
+
+    .what_see .new .item .name
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+
+    .what_see .videos .item .count + div
+    {
+        width: calc(100% - 58px);
+    }
+
+    .what_see .videos .item .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .what_see .videos .item .desc
+    {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+
+
+    .spec_projects .project .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+
+    .spec_projects .item .thumb
+    {
+        width: 100%;
+        padding-bottom: 50%;
+    }
+
+    .spec_projects .item .thumb + .info
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

@@ -651,6 +651,83 @@
 
 
 
+    .what_see .new .block_title
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+    .what_see .new .owl-carousel .owl-nav button
+    {
+        top: 120px;
+    }
+
+
+    .what_see .new .item
+    {
+        padding: 100px 0 16px;
+    }
+
+    .what_see .new .item .name
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .what_see .new .item .desc
+    {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+    .what_see .new .share
+    {
+        font-size: 13px;
+        line-height: 20px;
+
+        padding: 0;
+    }
+
+
+
+    .what_see .videos .flex
+    {
+        margin-bottom: -52px;
+        margin-left: -52px;
+    }
+
+    .what_see .videos .flex > *
+    {
+        width: calc(100% - 52px);
+        margin-bottom: 52px;
+        margin-left: 52px;
+    }
+
+
+    .what_see .videos .flex > *:nth-child(even)
+    {
+        margin-top: 0;
+    }
+
+
+
+    .spec_projects .flex
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .spec_projects .flex > *
+    {
+        width: calc(100% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+
     .page_menu a,
     .page_menu a + a
     {

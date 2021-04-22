@@ -613,6 +613,135 @@
 
 
 
+    .what_see .new .block_title
+    {
+        font-size: 28px;
+        line-height: 34px;
+
+        padding: 0 40px;
+    }
+
+    .what_see .new .count
+    {
+        top: 64px;
+    }
+
+    .what_see .new .item .name
+    {
+        font-size: 26px;
+    }
+
+
+
+    .what_see .videos .flex
+    {
+        margin-bottom: -16px;
+        margin-left: -92px;
+    }
+
+    .what_see .videos .flex > *
+    {
+        width: calc(50% - 92px);
+        margin-bottom: 16px;
+        margin-left: 92px;
+    }
+
+    .what_see .videos .flex > *:nth-child(even)
+    {
+        margin-top: 80px;
+    }
+
+
+    .what_see .videos .item .info
+    {
+        padding: 20px;
+    }
+
+    .what_see .videos .item .name
+    {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 31px;
+    }
+
+    .what_see .videos .item .desc
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        margin-top: 12px;
+    }
+
+
+
+    .spec_projects .flex
+    {
+        margin-bottom: -80px;
+        margin-left: -80px;
+    }
+
+    .spec_projects .flex > *
+    {
+        width: calc(50% - 80px);
+        margin-bottom: 80px;
+        margin-left: 80px;
+    }
+
+
+    .spec_projects .project .name
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 8px;
+    }
+
+    .spec_projects .project .thumb .sticker
+    {
+        font-size: 14px;
+
+        top: 12px;
+
+        padding-right: 12px;
+        padding-left: 16px;
+    }
+
+    .spec_projects .project .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        padding-left: 82px;
+    }
+
+
+    .spec_projects .slider_wrap
+    {
+        padding-bottom: 50px;
+    }
+
+    .what_see .spec_projects .owl-carousel .owl-nav button
+    {
+        bottom: -64px;
+    }
+
+
+    .spec_projects .item .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .spec_projects .item .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        padding-left: 15px;
+    }
+
+
+
     .page_menu
     {
         margin-left: -20px;

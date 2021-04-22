@@ -793,6 +793,203 @@
 
 
 
+    .what_see .new .block_title
+    {
+        font-size: 26px;
+        line-height: 32px;
+
+        padding: 0;
+    }
+
+    .what_see .new .count
+    {
+        display: none;
+    }
+
+    .what_see .new .owl-carousel .owl-nav button.owl-prev
+    {
+        left: -8px;
+    }
+
+    .what_see .new .owl-carousel .owl-nav button.owl-next
+    {
+        right: -8px;
+    }
+
+
+    .what_see .new .item
+    {
+        padding: 112px 40px 16px;
+    }
+
+    .what_see .new .item .name
+    {
+        font-size: 24px;
+    }
+
+
+    .what_see .new .share
+    {
+        font-size: 14px;
+
+        margin-top: 16px;
+        padding: 0 40px;
+    }
+
+    .what_see .new .share a + a
+    {
+        margin-left: 20px;
+    }
+
+
+
+    .what_see .videos .flex
+    {
+        margin-left: -52px;
+    }
+
+    .what_see .videos .flex > *
+    {
+        width: calc(50% - 52px);
+        margin-left: 52px;
+    }
+
+    .what_see .videos .flex > *:nth-child(even)
+    {
+        margin-top: 52px;
+    }
+
+
+    .what_see .videos .item .info
+    {
+        padding: 16px;
+    }
+
+    .what_see .videos .item .count .icon
+    {
+        margin-bottom: 6px;
+    }
+
+    .what_see .videos .item .count span
+    {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .what_see .videos .item .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .what_see .videos .item .desc
+    {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17px;
+
+        margin-top: 8px;
+    }
+
+
+
+    .spec_projects .flex
+    {
+        margin-bottom: -52px;
+        margin-left: -60px;
+    }
+
+    .spec_projects .flex > *
+    {
+        width: calc(50% - 60px);
+        margin-bottom: 52px;
+        margin-left: 60px;
+    }
+
+
+    .spec_projects .project .thumb .icon
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+    .spec_projects .project .name
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .spec_projects .project .thumb
+    {
+        margin-bottom: 30px;
+    }
+
+    .spec_projects .project .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        padding-left: 0;
+    }
+
+    .spec_projects .project .desc:before
+    {
+        display: none;
+    }
+
+
+
+    .spec_projects .item .thumb .icon
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+    .spec_projects .item .thumb + .info
+    {
+        width: calc(57.25% - 15px);
+    }
+
+    .spec_projects .item .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .spec_projects .item .desc
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    .spec_projects .slider_wrap
+    {
+        padding-bottom: 53px;
+    }
+
+    .spec_projects .slider_wrap .count
+    {
+        display: none;
+    }
+
+    .what_see .spec_projects .owl-carousel .owl-nav button
+    {
+        bottom: -53px;
+    }
+
+    .what_see .spec_projects .owl-carousel .owl-nav button.owl-prev
+    {
+        margin-left: -80px;
+    }
+
+    .what_see .spec_projects .owl-carousel .owl-nav button.owl-next
+    {
+        margin-right: -80px;
+    }
+
+
+
     .all
     {
         margin-top: 40px;

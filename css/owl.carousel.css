@@ -331,6 +331,65 @@
 
 
 
+.what_see .new .owl-carousel .owl-nav button
+{
+    top: 142px;
+
+    margin: 0;
+
+    opacity: 1;
+    background: url(../images/ic_arrow_white.svg) 50%/55px 22px no-repeat;
+}
+
+.what_see .new .owl-carousel .owl-nav button.owl-prev
+{
+    left: -50px;
+
+    margin-left: 0;
+}
+
+.what_see .new .owl-carousel .owl-nav button.owl-next
+{
+    right: -50px;
+
+    margin-right: 0;
+}
+
+.what_see .new .owl-carousel .owl-nav button:hover
+{
+    background: url(../images/ic_arrow_orange.svg) 50%/55px 22px no-repeat;
+}
+
+
+.what_see .spec_projects .owl-carousel .owl-nav button
+{
+    top: auto;
+    bottom: -74px;
+
+    opacity: 1;
+}
+
+.what_see .spec_projects .owl-carousel .owl-nav button.owl-prev
+{
+    left: 50%;
+
+    margin-left: -120px;
+}
+
+.what_see .spec_projects .owl-carousel .owl-nav button.owl-next
+{
+    right: 50%;
+
+    margin-right: -120px;
+}
+
+.what_see .spec_projects .owl-carousel .owl-nav button:hover
+{
+    background: url(../images/ic_arrow_orange.svg) 50%/55px 22px no-repeat;
+}
+
+
+
 .owl-dots
 {
     position: absolute;
