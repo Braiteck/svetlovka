@@ -111,7 +111,7 @@ button[type=reset]
 :hover,
 :active
 {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-touch-callout: none;
 }
 
@@ -1523,7 +1523,7 @@ header .search .submit_btn:hover path
 
     border-top: 1px solid #ddd;
     background: #fff;
-    box-shadow: 7px 20px 7px rgba(0,0,0,.09);
+    box-shadow: 7px 20px 7px rgba(0, 0, 0, .09);
 }
 
 #search_modal form
@@ -2190,7 +2190,7 @@ aside .banner img.loaded
 {
     top: -22px;
 
-    box-shadow: 7px 20px 7px rgba(0,0,0,.09);
+    box-shadow: 7px 20px 7px rgba(0, 0, 0, .09);
 }
 
 
@@ -2262,22 +2262,22 @@ aside .banner img.loaded
 
 .events .event .cat.color1
 {
-    background: rgba(195,150,128,.9);
+    background: rgba(195, 150, 128, .9);
 }
 
 .events .event .cat.color2
 {
-    background: rgba(112,204,199,.9);
+    background: rgba(112, 204, 199, .9);
 }
 
 .events .event .cat.color3
 {
-    background: rgba(195,124,133,.9);
+    background: rgba(195, 124, 133, .9);
 }
 
 .events .event .cat.color4
 {
-    background: rgba(239,129,123,.9);
+    background: rgba(239, 129, 123, .9);
 }
 
 
@@ -2656,7 +2656,7 @@ aside .banner img.loaded
 
     border: 6px solid #fff;
     border-bottom: none;
-    background: rgba(255,255,255,.6);
+    background: rgba(255, 255, 255, .6);
 }
 
 .events .columns .event .sticker_date:after
@@ -5607,7 +5607,7 @@ footer .socials a
     transition: .2s linear;
 
     border-radius: 50%;
-    background: rgba(255,255,255,.1);
+    background: rgba(255, 255, 255, .1);
 
     justify-content: center;
     align-items: center;
@@ -5735,7 +5735,7 @@ footer .creator a
     padding: 40px 50px;
 
     background: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
 .modal > * + *
