@@ -61,6 +61,14 @@
 
 
 
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: -20px;
+        right: 12px;
+    }
+
+
+
     /*---------------
         Header
     ---------------*/
@@ -574,6 +582,84 @@
 
 
 
+    .history .timeline .item + .item
+    {
+        margin-top: 20px;
+    }
+
+
+    .history .timeline .year
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        width: 100%;
+    }
+
+
+    .history .timeline .desc
+    {
+        width: 100%;
+        margin-top: 8px;
+    }
+
+
+    .history .now
+    {
+        padding: 20px;
+    }
+
+
+
+    .gallery .owl-carousel .owl-nav button
+    {
+        top: -56px;
+    }
+
+    .gallery .owl-carousel .owl-nav button.owl-prev
+    {
+        right: 60px;
+    }
+
+    .gallery .owl-carousel .owl-nav button.owl-next
+    {
+        right: -8px;
+    }
+
+
+
+    .promo_poster
+    {
+        font-size: 16px;
+    }
+
+
+    .promo_poster a
+    {
+        font-size: 28px;
+    }
+
+
+
+    .awards .item .icon
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+    .awards .item .icon + *
+    {
+        width: calc(100% - 80px);
+    }
+
+
+    .awards .item .name
+    {
+        line-height: 20px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/
@@ -658,4 +744,36 @@
     /*---------------
         PopUp
     ---------------*/
+    .history_modal
+    {
+        padding: 64px 12px 24px;
+    }
+
+
+    .history_modal .data
+    {
+        margin-top: 20px;
+    }
+
+
+    .history_modal .year
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+
+    .history_modal .title
+    {
+        font-size: 15px;
+    }
+
+
+    .history_modal .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-top: 20px;
+    }
 }

@@ -762,6 +762,140 @@
 
 
 
+    .about_info .text_block
+    {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+    .about_info .text_block p,
+    .about_info .text_block img,
+    .about_info .text_block blockquote,
+    .about_info .text_block q,
+    .about_info .text_block figure
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    .info_block .image
+    {
+        width: 460px;
+    }
+
+    .info_block .text_block
+    {
+        font-size: 15px;
+        line-height: 25px;
+
+        width: calc(100% - 508px);
+    }
+
+
+
+    .history .timeline .item
+    {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+    .history .timeline .year
+    {
+        font-size: 27px;
+        line-height: 31px;
+
+        width: 102px;
+    }
+
+
+    .history .timeline .desc
+    {
+        width: calc(100% - 120px);
+    }
+
+
+
+    .history .now
+    {
+        font-size: 16px;
+        line-height: 26px;
+
+        padding: 40px 172px;
+    }
+
+
+
+    .gallery .grid
+    {
+        grid-gap: 20px;
+    }
+
+
+    .gallery .col .item + .item
+    {
+        margin-top: 20px;
+    }
+
+
+    .gallery .item .thumb > img
+    {
+        height: 500px;
+    }
+
+    .gallery .col .item .thumb > img,
+    .gallery .grid .item .thumb > img
+    {
+        height: 240px;
+    }
+
+
+    .gallery .item .caption
+    {
+        padding: 16px 24px;
+    }
+
+
+
+    .promo_poster
+    {
+        font-size: 21px;
+    }
+
+    .promo_poster .cont > * + *
+    {
+        margin-top: 8px;
+    }
+
+    .promo_poster a
+    {
+        font-size: 38px;
+    }
+
+
+
+    .awards .flex
+    {
+        margin-left: -48px;
+    }
+
+    .awards .flex > *
+    {
+        width: calc(50% - 48px);
+        margin-bottom: 32px;
+        margin-left: 48px;
+    }
+
+
+    .awards .item .icon + *
+    {
+        width: calc(100% - 100px);
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

@@ -90,6 +90,15 @@
 
 
 
+    .modal.fancybox__content > .carousel__button.is-close,
+    .modal.fancybox__content > .carousel__button.is-close img
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+
     .text_block
     {
         font-size: 14px;
@@ -740,6 +749,229 @@
 
 
 
+    .about_info .text_block
+    {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .about_info .text_block p,
+    .about_info .text_block img,
+    .about_info .text_block blockquote,
+    .about_info .text_block q,
+    .about_info .text_block figure
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    .info_block .text_block
+    {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+
+    .history .timeline
+    {
+        padding-left: 22px;
+    }
+
+
+    .history .timeline .item
+    {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .history .timeline .item:before
+    {
+        left: -28px;
+    }
+
+
+    .history .timeline .year
+    {
+        font-size: 24px;
+        line-height: 28px;
+
+        width: 92px;
+    }
+
+    .history .timeline .desc
+    {
+        width: calc(100% - 112px);
+    }
+
+
+    .history .now
+    {
+        font-size: 14px;
+        line-height: 24px;
+
+        padding: 24px 48px;
+    }
+
+
+
+    .departments
+    {
+        padding: 50px 0;
+    }
+
+
+    .departments #map
+    {
+        height: 440px;
+    }
+
+
+    .departments .item
+    {
+        overflow: auto;
+
+        width: 286px;
+        height: 320px;
+        padding: 24px;
+    }
+
+    .departments .item .data
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+    .gallery .owl-carousel .owl-nav button
+    {
+        top: -60px;
+    }
+
+    .gallery .owl-carousel .owl-nav button.owl-prev
+    {
+        right: 81px;
+        left: auto;
+
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .gallery .owl-carousel .owl-nav button.owl-next
+    {
+        right: 0;
+
+        margin-right: 0;
+    }
+
+
+    .gallery .grid
+    {
+        grid-gap: 15px;
+    }
+
+
+    .gallery .col .item + .item
+    {
+        margin-top: 15px;
+    }
+
+
+    .gallery .item .thumb > img
+    {
+        height: 415px;
+    }
+
+    .gallery .col .item .thumb > img,
+    .gallery .grid .item .thumb > img
+    {
+        height: 200px;
+    }
+
+
+    .gallery .item .icon
+    {
+        width: 64px;
+        height: 64px;
+        padding: 20px;
+    }
+
+
+    .gallery .item .caption
+    {
+        font-size: 14px;
+
+        padding: 16px 20px;
+    }
+
+
+
+    .promo_poster
+    {
+        font-size: 18px;
+    }
+
+
+    .promo_poster .cont > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .promo_poster a
+    {
+        font-size: 30px;
+    }
+
+    .promo_poster a img
+    {
+        top: -6px;
+
+        width: 28px;
+        margin-left: 2px;
+    }
+
+
+
+    .awards
+    {
+        padding: 50px 0;
+    }
+
+
+    .awards .flex
+    {
+        margin-left: 0;
+    }
+
+    .awards .flex > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .awards .item .icon
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+    .awards .item .icon + *
+    {
+        width: calc(100% - 92px);
+    }
+
+
+    .awards .item .desc
+    {
+        margin-top: 12px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/
@@ -783,4 +1015,22 @@
     /*---------------
         PopUp
     ---------------*/
+    .history_modal
+    {
+        max-height: none;
+        padding: 68px 20px 24px 24px;
+    }
+
+
+    .history_modal figure
+    {
+        width: 100%;
+    }
+
+
+    .history_modal .data
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
 }

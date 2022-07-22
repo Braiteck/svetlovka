@@ -121,6 +121,14 @@
 
 
 
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: -16px;
+        right: 20px;
+    }
+
+
+
     /*---------------
         Header
     ---------------*/
@@ -1006,6 +1014,147 @@
 
 
 
+    .info_block .image
+    {
+        width: auto;
+        max-width: 100%;
+    }
+
+
+    .info_block .text_block
+    {
+        width: 100%;
+        margin-top: 32px;
+
+        order: 2;
+    }
+
+
+
+    .history .timeline
+    {
+        height: auto;
+        padding-top: 0;
+        padding-left: 40px;
+
+        border-left: 2px solid #e56235;
+    }
+
+    .history .timeline .bg
+    {
+        display: none;
+    }
+
+
+    .history .timeline .item
+    {
+        position: relative;
+        top: 0;
+
+        width: 100%;
+    }
+
+    .history .timeline .item:before
+    {
+        position: absolute;
+        top: 9px;
+        left: -46px;
+
+        display: block;
+
+        width: 10px;
+        height: 10px;
+
+        content: '';
+
+        border-radius: 50%;
+        background: #e56235;
+    }
+
+    .history .timeline .item + .item
+    {
+        margin-top: 28px;
+    }
+
+
+    .history .timeline .year
+    {
+        color: #e56235;
+        font-size: 25px;
+        line-height: 29px;
+
+        width: 96px;
+
+        text-align: left;
+    }
+
+
+    .history .timeline .desc
+    {
+        width: calc(100% - 116px);
+    }
+
+
+    .history .timeline .item:nth-child(2n+1) .year
+    {
+        text-align: left;
+
+        order: 0;
+    }
+
+    .history .timeline .item:nth-child(2n+1) .desc
+    {
+        text-align: left;
+    }
+
+
+    .history .now
+    {
+        font-size: 15px;
+        line-height: 25px;
+
+        margin-top: 40px;
+        padding: 28px 80px;
+    }
+
+    .history .now:before
+    {
+        display: none;
+    }
+
+
+
+    .departments
+    {
+        padding: 60px 0;
+    }
+
+
+
+    .promo_poster
+    {
+        font-size: 20px;
+    }
+
+    .promo_poster a
+    {
+        font-size: 34px;
+    }
+
+
+
+    .awards
+    {
+        padding: 60px 0;
+    }
+
+
+    .awards .item .name
+    {
+        line-height: 22px;
+    }
+
+
 
     /*---------------
         Footer
@@ -1034,4 +1183,51 @@
     /*---------------
         PopUp
     ---------------*/
+    .history_modal
+    {
+        width: 100%;
+        padding: 28px 20px 28px 28px;
+    }
+
+    .history_modal::-webkit-scrollbar
+    {
+        width: 8px;
+        height: 8px;
+    }
+
+
+    .history_modal figure
+    {
+        width: 312px;
+    }
+
+
+    .history_modal .data
+    {
+        width: calc(100% - 336px);
+    }
+
+
+    .history_modal .year
+    {
+        font-size: 28px;
+        line-height: 34px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .history_modal .title
+    {
+        font-size: 16px;
+    }
+
+
+    .history_modal .desc
+    {
+        font-size: 15px;
+        line-height: 25px;
+
+        margin-top: 24px;
+    }
 }

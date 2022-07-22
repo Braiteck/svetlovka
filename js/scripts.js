@@ -243,6 +243,28 @@ $(function () {
 	})
 
 
+	// Галерея
+	$('.gallery .slider').owlCarousel({
+		loop: false,
+		nav: true,
+		dots: false,
+		items: 1,
+		autoWidth: true,
+		smartSpeed: 500,
+		responsive: {
+			0: {
+				margin: 15
+			},
+			768: {
+				margin: 20
+			},
+			1280: {
+				margin: 26
+			}
+		}
+	})
+
+
 	// Переключение вида
 	$('.view a.grid_link').click(function (e) {
 		e.preventDefault()
@@ -294,6 +316,45 @@ $(function () {
 		onSelect: function (formattedDate, date, inst) {
 			// событие выбора даты
 			console.log(formattedDate)
+		}
+	})
+
+
+	// Fancybox
+	Fancybox.defaults.autoFocus = false
+	Fancybox.defaults.dragToClose = false
+	Fancybox.defaults.l10n = {
+		CLOSE: "Закрыть",
+		NEXT: "Следующий",
+		PREV: "Предыдущий",
+		MODAL: "Вы можете закрыть это модальное окно нажав клавишу ESC"
+	}
+
+	Fancybox.defaults.template = {
+		closeButton: '<img src="/images/ic_close.svg" alt="">',
+		spinner: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="25 25 50 50" tabindex="-1"><circle cx="50" cy="50" r="20"/></svg>',
+		main: null
+	}
+
+	// Всплывающие окна
+	$('body').on('click', '.modal_btn', function (e) {
+		e.preventDefault()
+
+		Fancybox.close()
+
+		Fancybox.show([{
+			src: $(this).data('modal'),
+			type: 'inline'
+		}])
+	})
+
+	// Увеличение картинки
+	Fancybox.bind('.fancy_img', {
+		Image: {
+			zoom: false,
+		},
+		Thumbs: {
+			autoStart: false,
 		}
 	})
 })
